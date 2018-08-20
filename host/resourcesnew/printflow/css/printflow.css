@@ -2,6 +2,10 @@ html, body {
 	overflow:hidden;
 }
 
+body {
+    width: 480px;
+	height: 320px;
+}
 
 
 .screen{
@@ -39,8 +43,8 @@ html, body {
 }
 .maintopconnector{
 	position: absolute; 
-	top: 72px; 
-	left: 252px;
+	top: 60px; 
+	left: 241px;
 	animation-iteration-count: infinite;
 	animation-name: fade;
 	animation-duration: 2s;
@@ -82,7 +86,7 @@ html, body {
 .mainbotconnector{
 	position: absolute; 
 	top: 190px; 
-	left: 243px;
+	left: 235px;
 	animation-iteration-count: infinite;
 	animation-name: fade;
 	animation-duration: 2s;
@@ -103,8 +107,8 @@ html, body {
 }
 .homehighlight{
 	position: absolute; 
-	top: 50px; 
-	left: 10px;
+	top: 42px; 
+	left: 1px;
 	animation-iteration-count: infinite;
 	animation-name: rotate;
 	animation-duration: 2s;
@@ -142,7 +146,7 @@ html, body {
 .bigbuttonhighlight{
 	position: absolute; 
 	top: 63px; 
-	left: 86px;
+	left: 33px;
 	animation-iteration-count: infinite;
 	animation-name: rotate;
 	animation-duration: 2s;
@@ -230,12 +234,12 @@ html, body {
 }
 .info { 
 	position: absolute; 
-	top: 120px; 
-	left: 600px; 
+	top: 50px; 
+	left: 330px; 
 	color: white;
 	font-size: 0;
 
-	max-width: 140px;
+	max-width: 160px;
 	white-space: pre-wrap;      /* CSS3 */   
 	white-space: -moz-pre-wrap; /* Firefox */   
 	white-space: -o-pre-wrap;   /* Opera 7 */    
@@ -247,8 +251,8 @@ html, body {
 }
 .warn { 
 	position: absolute; 
-	top: 132px; 
-	left: 580px;
+	top: 30px; 
+	left: 130px;
 	width:210px;
 	color: red;
 	user-drag: none; 

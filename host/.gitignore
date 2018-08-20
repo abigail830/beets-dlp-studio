@@ -8,3 +8,6 @@ build/
 .idea/
 cwh-0.298.zip
 cwh.log
+/host/.DS_Store
+host/resourcesnew/.DS_Store
+.DS_Store
